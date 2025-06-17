@@ -17,17 +17,15 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/login.css">
-      <!-- Favicons -->
-
 </head>
 <body>
-    
+
     <div class="main">
         <section class="signup">
             <div class="container">
                 <div class="signup-content">
                     <form method="POST" id="signup-form" class="signup-form">
-                        <h2 class="form-title">Venue Details</h2>
+                        <h2 class="form-title">Catering Details</h2>
                         <div class="form-group">
                             <input type="text" class="form-input" name="vname" id="name" placeholder="Venue Name"/>
                         </div>
@@ -38,7 +36,7 @@
                          <input type="text" class="form-input" name="desc" id="date" placeholder="Description "/>
                         </div>
                         <div class="form-group">
-                        <input type="submit" name="venue" id="submit" class="form-submit" value="Submit"/>
+                        <input type="submit" name="cat" id="submit" class="form-submit" value="Submit"/>
                         </div>
                     </form>
                 </div>
